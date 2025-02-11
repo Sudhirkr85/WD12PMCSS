@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .table-div {
+            width: 500px;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: separate;
+            border-spacing: 5px 5px;
+            caption-side: bottom;
+            empty-cells: hide;
+
+            table-layout: fixed;
+        }
+
+        td {
+            /* padding: 10px; */
+            text-align: center;
+            height: 40px;
+            vertical-align: bottom;
+        }
+
+        th {
+            background-color: #2f2f2f;
+            color: white;
+        }
+
+        tr:hover {
+            /* background-color: #e20909;
+            color: rgb(243, 241, 241); */
+        }
+
+        tr:nth-child(2n+1) {
+            background-color: darkolivegreen;
+        }
+
+        tr:nth-child(odd):hover{
+            background-color: #e20909;
+            color: rgb(243, 241, 241);
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="table-div">
+        <table>
+            <caption>Student Details</caption>
+            <thead>
+                <tr>
+                    <th>Roll Nubmber</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sudhir Kuamr</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>John</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>John</td>
+                    <td></td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>John</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+
+    </div>
+</body>
+
+</html>
