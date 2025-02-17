@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(image/3.jpg);
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: aquamarine;
+            display: flex;
+            justify-content: space-around;
+            height: 60px;
+            align-items: center;
+        }
+
+        header nav {
+            display: flex;
+            /* margin-left: 50px; */
+            padding-left: 100px;
+        }
+
+        header nav li {
+            list-style: none;
+            margin-right: 20px;
+
+        }
+
+        header h2 {
+            user-select: none;
+        }
+    </Style>
+</head>
+
+<body>
+    <header>
+        <h2>Logo</h2>
+        <nav>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Feedback</li>
+            <li>Contact us</li>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Search here">
+            <button>Search</button>
+        </div>
+    </header>
+</body>
+
+</html>
