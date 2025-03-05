@@ -1,0 +1,41 @@
+div {
+  color: green;
+}
+
+body {
+  background-color: #222;
+}
+
+.item-1 {
+  font-size: 10px;
+}
+
+.item-2 {
+  font-size: 20px;
+}
+
+.item-3 {
+  font-size: 30px;
+}
+
+.item-4 {
+  font-size: 40px;
+}
+
+.p_pink {
+  background-color: pink;
+}
+
+.p_violet {
+  background-color: violet;
+}
+
+.p_yellow {
+  background-color: yellow;
+}
+
+.p_blue {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

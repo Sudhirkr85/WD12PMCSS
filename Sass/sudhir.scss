@@ -1,0 +1,33 @@
+$primary: #fff;
+$secondry: #222;
+
+div {
+
+    @if 4==5 {
+        color: red;
+    }
+
+    @else {
+        color: green;
+    }
+
+    // color: $primary;
+}
+
+body {
+    background-color: $secondry ;
+}
+
+@for $i from 1 to 5 {
+    .item-#{$i} {
+        font-size: 10px * $i;
+    }
+}
+
+
+
+@each $color in pink, violet, yellow, blue {
+    .p_#{#{$color}} {
+        background-color: #{$color};
+    }
+}
